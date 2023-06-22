@@ -1,0 +1,90 @@
+body {
+    margin: 0;
+}
+header {
+    background-color: #363535;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #f4ccba;
+    font-family: poppins;
+}
+#header-billy img {
+    width: 150px;
+    margin-top: 10px;
+}
+#best-P {
+    display: flex;
+    font-style: italic;
+    flex-direction: column;
+    align-items: center;
+    border: 1px solid #f4ccba;
+    width: 300px;
+    height: 40px;
+    padding-top: 20px;
+    border-radius: 50%;
+}
+.styled-table {
+    background-image: url(grey.webp);
+    border-collapse: collapse;
+    width: 100%;
+    background-position: center;
+    background-size:contain;
+    color: white;
+    font-size: 50px;
+  }
+  
+  .styled-table th, .styled-table td {
+    padding: 20px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .styled-table th {
+    border-right: 1px solid #ddd;
+  }
+  
+  .styled-table td:last-child, .styled-table th:last-child {
+    border-right: none;
+  }
+  footer {
+    background-color: #363535;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px; 
+    padding: 0 20px; 
+  }
+  
+  .contact-us {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+  }
+  
+  .contact-us p,
+  .contact-us a {
+    margin: 0; 
+    border: 1px solid #363535;
+    background-color: #ddd;
+    color: #363535;
+    padding: 20px;
+    border-radius: 5px;
+    transition: background-color 2s ease-in-out, color 2s ease-in-out;
+  }
+  
+  .contact-us p,
+  .contact-us a:hover {
+background-color: #363535;
+color: goldenrod;
+  }
+
+  .contact-us a {
+    text-decoration: none;
+  }
+  
+  footer p {
+    margin: 0; 
+  }
+  
